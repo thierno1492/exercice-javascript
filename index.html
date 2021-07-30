@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="row">
+        <h1 class="text-center">Porcentaje y Descuento</h1>
+        <div class="col">
+            <label for="inputPrecio">escribe el producto de tu precio</label>
+          <input id="inputPrecio" type="number" class="form-control" placeholder="precio" aria-label="precio">
+        </div>
+        <div class="col">
+            <label for="inputDecuento">Escribe el descuento del producto</label>
+          <input id="inputDecuento" type="number" class="form-control" placeholder="descuento" aria-label="decuento">
+        </div>
+        <p id="Result"></p>
+        <button onclick="calcularPrecioDescuento()">calcular precio con descuento</button>
+      </div>
+    <script src="app.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</body>
+</html>
